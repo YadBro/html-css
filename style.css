@@ -1,0 +1,38 @@
+body {
+  background-image: url("gambar.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.test {
+  margin-top: 10%;
+  letter-spacing: 30px;
+}
+
+.test2 {
+  font-size: 20px;
+}
+
+.test3 {
+  position: absolute;
+  right: 0;
+  width: 120px;
+  color: white;
+  font-size: 19px;
+  margin-right: 20px;
+  padding: 6px;
+}
+
+.test4 {
+  width: 100%;
+}
+
+.test5 {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .test {
+    letter-spacing: 5px;
+  }
+}
