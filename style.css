@@ -2,6 +2,8 @@ body {
   background-image: url("gambar.png");
   background-repeat: no-repeat;
   color: white;
+  background-size: cover;
+  height: 100vh;
 }
 
 .test {
@@ -31,8 +33,41 @@ body {
   font-size: 20px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 572px) {
   .test {
     letter-spacing: 5px;
+    font-size: 40px;
   }
+
+  .test2 {
+    font-size: 10px;
+  }
+
+  .test3 {
+    position: static;
+    width: 100%;
+  }
+
+  .test6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .test8 {
+    width: 300px;
+    justify-content: center;
+  }
+
+  .test4 {
+    width: 300px;
+    padding: 7px !important;
+  }
+
+  .test5 {
+    margin-top: 50px;
+    font-size: 14px;
+  }
+
 }
